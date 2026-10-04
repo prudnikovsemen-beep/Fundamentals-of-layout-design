@@ -1,0 +1,20 @@
+[project]
+name = "Fundamentals_of_layout_design"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Prudnikov Semen",email = "prudnikov.semen@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "requests (>=2.34.2,<3.0.0)"
+]

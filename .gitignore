@@ -1,0 +1,26 @@
+@"
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Poetry
+poetry.lock
+
+# Тесты и покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ОС
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding ascii
