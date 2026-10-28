@@ -1,14 +1,17 @@
 # Fundamentals_of_layout_design
+## Структура проекта
 
-Fundamentals_of_layout_design/
-├── home/
-│   ├──  index.html            # главная
-│   ├── catalog.html           # каталог
-│   ├── category.html          # категория
-│   └── Contacts.html          #контакты
-├── css/
-│   └── style.css
-├── pyproject.toml             # Конфигурация Poetry и зависимости
-├── poetry.lock                # Зафиксированные версии зависимостей
-├── .gitignore                 # Правила игнорирования файлов
-└── README.md                  # Эта документация
+- `home/` — статические HTML-страницы:
+  - `index.html` — главная страница.
+  - `catalog.html` — каталог товаров.
+  - `category.html` — страница категории.
+  - `contacts.html` — страница контактов с формой.
+- `server.py` — простой веб-сервер на Python (стандартная библиотека `http.server`). Обрабатывает GET (отдает контакты) и POST (логирует данные).
+- `.gitignore` — правила игнорирования служебных файлов.
+- `pyproject.toml` — конфигурация Poetry.
+
+## Как запустить
+
+1. Активировать окружение: `poetry shell`
+2. Запустить сервер: `python server.py`
+3. Открыть в браузере: `http://localhost:8000`
